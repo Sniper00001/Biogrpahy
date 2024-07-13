@@ -47,7 +47,9 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #c0a5a5;
+  background-image: url('Assests/img-2.png');
+  background-size: cover;
+  background-position: center;
   color: #333;
 }
 
