@@ -1,0 +1,57 @@
+/* Basic CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive layout */
+@media (max-width: 1200px) {
+  #root {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  #root {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+
+  #root {
+    padding: 0;
+  }
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #c0a5a5;
+  color: #333;
+}
+
+
+
+
+
